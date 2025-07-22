@@ -58,9 +58,9 @@ function selectJewelryType(type) {
 
   switch (type) {
     case 'gold_earrings':     end = 11; break;
-    case 'gold_necklaces':    end = 6; break;
+    case 'gold_necklaces':    end = 11; break;
     case 'diamond_earrings':  end = 10; break;
-    case 'diamond_necklaces': end = 3; break;
+    case 'diamond_necklaces': end = 11; break;
     default:                  end = 15;
   }
 
